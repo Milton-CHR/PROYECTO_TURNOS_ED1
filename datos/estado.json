@@ -1,0 +1,37 @@
+{
+  "nombre_servicio": "Sistema de Turnos",
+  "contador_normal": 2,
+  "contador_prioritario": 2,
+  "cola_normal": [
+    {
+      "numero": "N-002",
+      "nombre": "Mario Bros",
+      "prioritario": false,
+      "hora": "10:44:22"
+    }
+  ],
+  "cola_prioritaria": [],
+  "historial": [
+    {
+      "numero": "N-001",
+      "nombre": "Josepo Dante",
+      "prioritario": false,
+      "hora": "10:39:58",
+      "hora_atencion": "10:40:17"
+    },
+    {
+      "numero": "P-001",
+      "nombre": "Pricila Carmina",
+      "prioritario": true,
+      "hora": "10:44:11",
+      "hora_atencion": "10:54:31"
+    },
+    {
+      "numero": "P-002",
+      "nombre": "Maikol Yakson",
+      "prioritario": true,
+      "hora": "10:54:25",
+      "hora_atencion": "11:04:05"
+    }
+  ]
+}
