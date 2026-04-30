@@ -22,8 +22,6 @@ class ControladorTurnos:
     def ver_historial(self):
         return self.sistema.obtener_historial()
 
-    def pendientes(self):
-        return self.sistema.total_pendientes()
 
     def guardar_estado(self):
         os.makedirs("datos", exist_ok=True)
