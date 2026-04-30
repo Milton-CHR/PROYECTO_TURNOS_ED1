@@ -95,10 +95,6 @@ class SistemaGestionTurnos:
         """Devuelve últimos n atendidos."""
         return list(reversed(self._historial[-n:]))
 
-    def total_pendientes(self) -> int:
-        """Cantidad total de turnos pendientes."""
-        return len(self._cola_prioritaria) + len(self._cola_normal)
-
     def exportar_estado(self) -> Dict:
         """Exporta estado completo."""
         return {
