@@ -1,35 +1,9 @@
 {
   "nombre_servicio": "Sistema de Turnos",
-  "contador_normal": 4,
-  "contador_prioritario": 4,
-  "cola_normal": [
-    {
-      "numero": "N-003",
-      "nombre": "don peluche",
-      "prioritario": false,
-      "hora": "01:50:47"
-    },
-    {
-      "numero": "N-004",
-      "nombre": "mia dona",
-      "prioritario": false,
-      "hora": "01:50:58"
-    }
-  ],
-  "cola_prioritaria": [
-    {
-      "numero": "P-003",
-      "nombre": "pepe mojica",
-      "prioritario": true,
-      "hora": "01:50:37"
-    },
-    {
-      "numero": "P-004",
-      "nombre": "lonet vadas",
-      "prioritario": true,
-      "hora": "01:51:18"
-    }
-  ],
+  "contador_normal": 8,
+  "contador_prioritario": 10,
+  "cola_normal": [],
+  "cola_prioritaria": [],
   "historial": [
     {
       "numero": "N-001",
@@ -58,6 +32,104 @@
       "prioritario": false,
       "hora": "10:44:22",
       "hora_atencion": "01:50:28"
+    },
+    {
+      "numero": "P-003",
+      "nombre": "pepe mojica",
+      "prioritario": true,
+      "hora": "01:50:37",
+      "hora_atencion": "08:55:16"
+    },
+    {
+      "numero": "P-004",
+      "nombre": "lonet vadas",
+      "prioritario": true,
+      "hora": "01:51:18",
+      "hora_atencion": "08:58:40"
+    },
+    {
+      "numero": "N-003",
+      "nombre": "don peluche",
+      "prioritario": false,
+      "hora": "01:50:47",
+      "hora_atencion": "08:58:44"
+    },
+    {
+      "numero": "P-005",
+      "nombre": "cesar",
+      "prioritario": true,
+      "hora": "08:58:53",
+      "hora_atencion": "09:23:17"
+    },
+    {
+      "numero": "P-006",
+      "nombre": "policia",
+      "prioritario": true,
+      "hora": "08:58:59",
+      "hora_atencion": "09:44:07"
+    },
+    {
+      "numero": "P-007",
+      "nombre": "cadeya",
+      "prioritario": true,
+      "hora": "09:35:01",
+      "hora_atencion": "09:51:05"
+    },
+    {
+      "numero": "P-008",
+      "nombre": "carlita",
+      "prioritario": true,
+      "hora": "09:43:44",
+      "hora_atencion": "09:51:06"
+    },
+    {
+      "numero": "P-009",
+      "nombre": "maro",
+      "prioritario": true,
+      "hora": "09:43:50",
+      "hora_atencion": "09:51:06"
+    },
+    {
+      "numero": "P-010",
+      "nombre": "evo",
+      "prioritario": true,
+      "hora": "09:43:57",
+      "hora_atencion": "09:51:07"
+    },
+    {
+      "numero": "N-004",
+      "nombre": "mia dona",
+      "prioritario": false,
+      "hora": "01:50:58",
+      "hora_atencion": "09:51:07"
+    },
+    {
+      "numero": "N-005",
+      "nombre": "richi ricon",
+      "prioritario": false,
+      "hora": "08:55:24",
+      "hora_atencion": "09:54:10"
+    },
+    {
+      "numero": "N-006",
+      "nombre": "casandra",
+      "prioritario": false,
+      "hora": "08:42:32",
+      "hora_atencion": "09:54:12"
+    },
+    {
+      "numero": "N-007",
+      "nombre": "pepe",
+      "prioritario": false,
+      "hora": "08:58:36",
+      "hora_atencion": "09:55:56"
+    },
+    {
+      "numero": "N-008",
+      "nombre": "pepe2",
+      "prioritario": false,
+      "hora": "09:43:40",
+      "hora_atencion": "09:56:09"
     }
   ]
 }

@@ -60,8 +60,7 @@ class SistemaGestionTurnos:
             numero = f"N-{self._contador_normal:03d}"
             turno = Turno(numero, nombre, False)
             self._cola_normal.append(turno)
-
-        return numero
+        return None
 
     def atender_siguiente(self) -> Optional[Dict]:
         """Atiende el siguiente turno disponible."""
